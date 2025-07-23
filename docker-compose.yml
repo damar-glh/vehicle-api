@@ -7,3 +7,13 @@ services:
     volumes:
       - ./db.json:/app/db.json
     restart: always
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/:/etc/nginx/conf.d/
+    depends_on:
+      - json-server
+    restart: always
