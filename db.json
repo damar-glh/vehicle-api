@@ -1,0 +1,38 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "name": "Toyota Avanza",
+      "status": "ACTIVE",
+      "speed": 60,
+      "updated_at": "2025-07-23T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Daihatsu Xenia",
+      "status": "INACTIVE",
+      "speed": 0,
+      "updated_at": "2025-07-23T09:45:00Z"
+    }
+  ],
+  "telemetry": [
+    {
+      "vehicleId": 1,
+      "odometer": 123456.78,
+      "fuel_level": 70.2,
+      "timestamp": "2025-07-23T10:00:00Z",
+      "latitude": -6.12,
+      "longitude": 106.85,
+      "speed": 60
+    },
+    {
+      "vehicleId": 2,
+      "odometer": 98765.43,
+      "fuel_level": 40.5,
+      "timestamp": "2025-07-23T09:45:00Z",
+      "latitude": -6.2,
+      "longitude": 106.8,
+      "speed": 0
+    }
+  ]
+}
