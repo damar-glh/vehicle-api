@@ -1,0 +1,3 @@
+{
+  "/vehicles/:id": "/telemetry?vehicleId=:id"
+}

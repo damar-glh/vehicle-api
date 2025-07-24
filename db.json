@@ -2,37 +2,805 @@
   "vehicles": [
     {
       "id": 1,
-      "name": "Toyota Avanza",
-      "status": "ACTIVE",
-      "speed": 60,
-      "updated_at": "2025-07-23T10:00:00Z"
+      "name": "Daihatsu Avanza",
+      "status": "INACTIVE",
+      "speed": 0,
+      "updated_at": "2025-07-23T09:55:00Z"
     },
     {
       "id": 2,
-      "name": "Daihatsu Xenia",
+      "name": "Honda Avanza",
+      "status": "ACTIVE",
+      "speed": 45,
+      "updated_at": "2025-07-23T09:50:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Toyota Jazz",
       "status": "INACTIVE",
       "speed": 0,
       "updated_at": "2025-07-23T09:45:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Daihatsu Avanza",
+      "status": "ACTIVE",
+      "speed": 56,
+      "updated_at": "2025-07-23T09:40:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Mitsubishi Xenia",
+      "status": "ACTIVE",
+      "speed": 57,
+      "updated_at": "2025-07-23T09:35:00Z"
+    },
+    {
+      "id": 6,
+      "name": "Honda Pajero",
+      "status": "INACTIVE",
+      "speed": 0,
+      "updated_at": "2025-07-23T09:30:00Z"
+    },
+    {
+      "id": 7,
+      "name": "Honda Jazz",
+      "status": "INACTIVE",
+      "speed": 0,
+      "updated_at": "2025-07-23T09:25:00Z"
+    },
+    {
+      "id": 8,
+      "name": "Mitsubishi Avanza",
+      "status": "ACTIVE",
+      "speed": 47,
+      "updated_at": "2025-07-23T09:20:00Z"
+    },
+    {
+      "id": 9,
+      "name": "Suzuki Ertiga",
+      "status": "INACTIVE",
+      "speed": 0,
+      "updated_at": "2025-07-23T09:15:00Z"
+    },
+    {
+      "id": 10,
+      "name": "Suzuki Jazz",
+      "status": "ACTIVE",
+      "speed": 53,
+      "updated_at": "2025-07-23T09:10:00Z"
+    },
+    {
+      "id": 11,
+      "name": "Honda Xenia",
+      "status": "MAINTENANCE",
+      "speed": 0,
+      "updated_at": "2025-07-23T09:05:00Z"
+    },
+    {
+      "id": 12,
+      "name": "Honda Jazz",
+      "status": "ACTIVE",
+      "speed": 69,
+      "updated_at": "2025-07-23T09:00:00Z"
+    },
+    {
+      "id": 13,
+      "name": "Mitsubishi Ertiga",
+      "status": "ACTIVE",
+      "speed": 52,
+      "updated_at": "2025-07-23T08:55:00Z"
+    },
+    {
+      "id": 14,
+      "name": "Honda Xenia",
+      "status": "ACTIVE",
+      "speed": 80,
+      "updated_at": "2025-07-23T08:50:00Z"
+    },
+    {
+      "id": 15,
+      "name": "Honda Xenia",
+      "status": "ACTIVE",
+      "speed": 70,
+      "updated_at": "2025-07-23T08:45:00Z"
+    },
+    {
+      "id": 16,
+      "name": "Honda Jazz",
+      "status": "ACTIVE",
+      "speed": 64,
+      "updated_at": "2025-07-23T08:40:00Z"
+    },
+    {
+      "id": 17,
+      "name": "Honda Avanza",
+      "status": "ACTIVE",
+      "speed": 62,
+      "updated_at": "2025-07-23T08:35:00Z"
+    },
+    {
+      "id": 18,
+      "name": "Honda Avanza",
+      "status": "ACTIVE",
+      "speed": 69,
+      "updated_at": "2025-07-23T08:30:00Z"
+    },
+    {
+      "id": 19,
+      "name": "Daihatsu Pajero",
+      "status": "INACTIVE",
+      "speed": 0,
+      "updated_at": "2025-07-23T08:25:00Z"
+    },
+    {
+      "id": 20,
+      "name": "Honda Ertiga",
+      "status": "MAINTENANCE",
+      "speed": 0,
+      "updated_at": "2025-07-23T08:20:00Z"
+    },
+    {
+      "id": 21,
+      "name": "Suzuki Xenia",
+      "status": "MAINTENANCE",
+      "speed": 0,
+      "updated_at": "2025-07-23T08:15:00Z"
+    },
+    {
+      "id": 22,
+      "name": "Honda Avanza",
+      "status": "ACTIVE",
+      "speed": 41,
+      "updated_at": "2025-07-23T08:10:00Z"
+    },
+    {
+      "id": 23,
+      "name": "Honda Avanza",
+      "status": "ACTIVE",
+      "speed": 50,
+      "updated_at": "2025-07-23T08:05:00Z"
+    },
+    {
+      "id": 24,
+      "name": "Honda Jazz",
+      "status": "ACTIVE",
+      "speed": 74,
+      "updated_at": "2025-07-23T08:00:00Z"
+    },
+    {
+      "id": 25,
+      "name": "Honda Jazz",
+      "status": "MAINTENANCE",
+      "speed": 0,
+      "updated_at": "2025-07-23T07:55:00Z"
+    },
+    {
+      "id": 26,
+      "name": "Suzuki Jazz",
+      "status": "ACTIVE",
+      "speed": 71,
+      "updated_at": "2025-07-23T07:50:00Z"
+    },
+    {
+      "id": 27,
+      "name": "Suzuki Xenia",
+      "status": "MAINTENANCE",
+      "speed": 0,
+      "updated_at": "2025-07-23T07:45:00Z"
+    },
+    {
+      "id": 28,
+      "name": "Suzuki Xenia",
+      "status": "MAINTENANCE",
+      "speed": 0,
+      "updated_at": "2025-07-23T07:40:00Z"
+    },
+    {
+      "id": 29,
+      "name": "Daihatsu Xenia",
+      "status": "ACTIVE",
+      "speed": 48,
+      "updated_at": "2025-07-23T07:35:00Z"
+    },
+    {
+      "id": 30,
+      "name": "Mitsubishi Ertiga",
+      "status": "MAINTENANCE",
+      "speed": 0,
+      "updated_at": "2025-07-23T07:30:00Z"
+    },
+    {
+      "id": 31,
+      "name": "Toyota Xenia",
+      "status": "MAINTENANCE",
+      "speed": 0,
+      "updated_at": "2025-07-23T07:25:00Z"
+    },
+    {
+      "id": 32,
+      "name": "Mitsubishi Xenia",
+      "status": "MAINTENANCE",
+      "speed": 0,
+      "updated_at": "2025-07-23T07:20:00Z"
+    },
+    {
+      "id": 33,
+      "name": "Suzuki Jazz",
+      "status": "MAINTENANCE",
+      "speed": 0,
+      "updated_at": "2025-07-23T07:15:00Z"
+    },
+    {
+      "id": 34,
+      "name": "Mitsubishi Pajero",
+      "status": "ACTIVE",
+      "speed": 49,
+      "updated_at": "2025-07-23T07:10:00Z"
+    },
+    {
+      "id": 35,
+      "name": "Mitsubishi Xenia",
+      "status": "ACTIVE",
+      "speed": 49,
+      "updated_at": "2025-07-23T07:05:00Z"
+    },
+    {
+      "id": 36,
+      "name": "Suzuki Pajero",
+      "status": "ACTIVE",
+      "speed": 62,
+      "updated_at": "2025-07-23T07:00:00Z"
+    },
+    {
+      "id": 37,
+      "name": "Toyota Pajero",
+      "status": "INACTIVE",
+      "speed": 0,
+      "updated_at": "2025-07-23T06:55:00Z"
+    },
+    {
+      "id": 38,
+      "name": "Honda Ertiga",
+      "status": "ACTIVE",
+      "speed": 77,
+      "updated_at": "2025-07-23T06:50:00Z"
+    },
+    {
+      "id": 39,
+      "name": "Toyota Avanza",
+      "status": "MAINTENANCE",
+      "speed": 0,
+      "updated_at": "2025-07-23T06:45:00Z"
+    },
+    {
+      "id": 40,
+      "name": "Honda Xenia",
+      "status": "MAINTENANCE",
+      "speed": 0,
+      "updated_at": "2025-07-23T06:40:00Z"
+    },
+    {
+      "id": 41,
+      "name": "Suzuki Ertiga",
+      "status": "INACTIVE",
+      "speed": 0,
+      "updated_at": "2025-07-23T06:35:00Z"
+    },
+    {
+      "id": 42,
+      "name": "Mitsubishi Xenia",
+      "status": "ACTIVE",
+      "speed": 55,
+      "updated_at": "2025-07-23T06:30:00Z"
+    },
+    {
+      "id": 43,
+      "name": "Suzuki Xenia",
+      "status": "INACTIVE",
+      "speed": 0,
+      "updated_at": "2025-07-23T06:25:00Z"
+    },
+    {
+      "id": 44,
+      "name": "Toyota Pajero",
+      "status": "INACTIVE",
+      "speed": 0,
+      "updated_at": "2025-07-23T06:20:00Z"
+    },
+    {
+      "id": 45,
+      "name": "Mitsubishi Ertiga",
+      "status": "MAINTENANCE",
+      "speed": 0,
+      "updated_at": "2025-07-23T06:15:00Z"
+    },
+    {
+      "id": 46,
+      "name": "Daihatsu Avanza",
+      "status": "ACTIVE",
+      "speed": 59,
+      "updated_at": "2025-07-23T06:10:00Z"
+    },
+    {
+      "id": 47,
+      "name": "Honda Ertiga",
+      "status": "MAINTENANCE",
+      "speed": 0,
+      "updated_at": "2025-07-23T06:05:00Z"
+    },
+    {
+      "id": 48,
+      "name": "Toyota Ertiga",
+      "status": "ACTIVE",
+      "speed": 59,
+      "updated_at": "2025-07-23T06:00:00Z"
+    },
+    {
+      "id": 49,
+      "name": "Honda Xenia",
+      "status": "MAINTENANCE",
+      "speed": 0,
+      "updated_at": "2025-07-23T05:55:00Z"
+    },
+    {
+      "id": 50,
+      "name": "Toyota Xenia",
+      "status": "ACTIVE",
+      "speed": 45,
+      "updated_at": "2025-07-23T05:50:00Z"
     }
   ],
   "telemetry": [
     {
       "vehicleId": 1,
-      "odometer": 123456.78,
-      "fuel_level": 70.2,
-      "timestamp": "2025-07-23T10:00:00Z",
-      "latitude": -6.12,
-      "longitude": 106.85,
-      "speed": 60
+      "odometer": 58109.75,
+      "fuel_level": 65.9,
+      "timestamp": "2025-07-23T09:55:00Z",
+      "latitude": -6.163043,
+      "longitude": 106.728873,
+      "speed": 0
     },
     {
       "vehicleId": 2,
-      "odometer": 98765.43,
-      "fuel_level": 40.5,
+      "odometer": 101573.83,
+      "fuel_level": 93.2,
+      "timestamp": "2025-07-23T09:50:00Z",
+      "latitude": -6.256792,
+      "longitude": 106.873884,
+      "speed": 45
+    },
+    {
+      "vehicleId": 3,
+      "odometer": 48766.97,
+      "fuel_level": 10.6,
       "timestamp": "2025-07-23T09:45:00Z",
-      "latitude": -6.2,
-      "longitude": 106.8,
+      "latitude": -6.110082,
+      "longitude": 106.759644,
       "speed": 0
+    },
+    {
+      "vehicleId": 4,
+      "odometer": 54336.13,
+      "fuel_level": 59.1,
+      "timestamp": "2025-07-23T09:40:00Z",
+      "latitude": -6.124985,
+      "longitude": 106.897843,
+      "speed": 56
+    },
+    {
+      "vehicleId": 5,
+      "odometer": 89312.98,
+      "fuel_level": 10.1,
+      "timestamp": "2025-07-23T09:35:00Z",
+      "latitude": -6.252971,
+      "longitude": 106.780891,
+      "speed": 57
+    },
+    {
+      "vehicleId": 6,
+      "odometer": 28091.39,
+      "fuel_level": 16.9,
+      "timestamp": "2025-07-23T09:30:00Z",
+      "latitude": -6.240447,
+      "longitude": 106.806212,
+      "speed": 0
+    },
+    {
+      "vehicleId": 7,
+      "odometer": 24471.03,
+      "fuel_level": 18.9,
+      "timestamp": "2025-07-23T09:25:00Z",
+      "latitude": -6.178504,
+      "longitude": 106.739851,
+      "speed": 0
+    },
+    {
+      "vehicleId": 8,
+      "odometer": 105178.34,
+      "fuel_level": 18.6,
+      "timestamp": "2025-07-23T09:20:00Z",
+      "latitude": -6.137294,
+      "longitude": 106.854191,
+      "speed": 47
+    },
+    {
+      "vehicleId": 9,
+      "odometer": 135110.28,
+      "fuel_level": 26.5,
+      "timestamp": "2025-07-23T09:15:00Z",
+      "latitude": -6.138668,
+      "longitude": 106.84103,
+      "speed": 0
+    },
+    {
+      "vehicleId": 10,
+      "odometer": 53305.78,
+      "fuel_level": 83.8,
+      "timestamp": "2025-07-23T09:10:00Z",
+      "latitude": -6.2662,
+      "longitude": 106.836264,
+      "speed": 53
+    },
+    {
+      "vehicleId": 11,
+      "odometer": 69640.78,
+      "fuel_level": 29.2,
+      "timestamp": "2025-07-23T09:05:00Z",
+      "latitude": -6.287641,
+      "longitude": 106.833785,
+      "speed": 0
+    },
+    {
+      "vehicleId": 12,
+      "odometer": 93098.97,
+      "fuel_level": 74.9,
+      "timestamp": "2025-07-23T09:00:00Z",
+      "latitude": -6.275254,
+      "longitude": 106.701404,
+      "speed": 69
+    },
+    {
+      "vehicleId": 13,
+      "odometer": 116094.76,
+      "fuel_level": 31.0,
+      "timestamp": "2025-07-23T08:55:00Z",
+      "latitude": -6.290982,
+      "longitude": 106.836749,
+      "speed": 52
+    },
+    {
+      "vehicleId": 14,
+      "odometer": 128917.06,
+      "fuel_level": 21.8,
+      "timestamp": "2025-07-23T08:50:00Z",
+      "latitude": -6.278636,
+      "longitude": 106.736122,
+      "speed": 80
+    },
+    {
+      "vehicleId": 15,
+      "odometer": 41029.62,
+      "fuel_level": 99.4,
+      "timestamp": "2025-07-23T08:45:00Z",
+      "latitude": -6.253793,
+      "longitude": 106.704602,
+      "speed": 70
+    },
+    {
+      "vehicleId": 16,
+      "odometer": 86392.2,
+      "fuel_level": 10.1,
+      "timestamp": "2025-07-23T08:40:00Z",
+      "latitude": -6.206966,
+      "longitude": 106.80762,
+      "speed": 64
+    },
+    {
+      "vehicleId": 17,
+      "odometer": 79441.08,
+      "fuel_level": 23.3,
+      "timestamp": "2025-07-23T08:35:00Z",
+      "latitude": -6.197968,
+      "longitude": 106.872442,
+      "speed": 62
+    },
+    {
+      "vehicleId": 18,
+      "odometer": 139898.47,
+      "fuel_level": 36.5,
+      "timestamp": "2025-07-23T08:30:00Z",
+      "latitude": -6.273859,
+      "longitude": 106.779481,
+      "speed": 69
+    },
+    {
+      "vehicleId": 19,
+      "odometer": 124140.19,
+      "fuel_level": 15.2,
+      "timestamp": "2025-07-23T08:25:00Z",
+      "latitude": -6.213349,
+      "longitude": 106.832352,
+      "speed": 0
+    },
+    {
+      "vehicleId": 20,
+      "odometer": 108158.28,
+      "fuel_level": 88.9,
+      "timestamp": "2025-07-23T08:20:00Z",
+      "latitude": -6.157041,
+      "longitude": 106.70227,
+      "speed": 0
+    },
+    {
+      "vehicleId": 21,
+      "odometer": 116818.23,
+      "fuel_level": 86.9,
+      "timestamp": "2025-07-23T08:15:00Z",
+      "latitude": -6.179636,
+      "longitude": 106.891288,
+      "speed": 0
+    },
+    {
+      "vehicleId": 22,
+      "odometer": 88228.31,
+      "fuel_level": 85.1,
+      "timestamp": "2025-07-23T08:10:00Z",
+      "latitude": -6.107903,
+      "longitude": 106.830523,
+      "speed": 41
+    },
+    {
+      "vehicleId": 23,
+      "odometer": 25803.36,
+      "fuel_level": 24.1,
+      "timestamp": "2025-07-23T08:05:00Z",
+      "latitude": -6.153205,
+      "longitude": 106.775465,
+      "speed": 50
+    },
+    {
+      "vehicleId": 24,
+      "odometer": 123433.91,
+      "fuel_level": 84.6,
+      "timestamp": "2025-07-23T08:00:00Z",
+      "latitude": -6.113198,
+      "longitude": 106.833487,
+      "speed": 74
+    },
+    {
+      "vehicleId": 25,
+      "odometer": 38772.92,
+      "fuel_level": 80.7,
+      "timestamp": "2025-07-23T07:55:00Z",
+      "latitude": -6.148139,
+      "longitude": 106.722915,
+      "speed": 0
+    },
+    {
+      "vehicleId": 26,
+      "odometer": 77136.48,
+      "fuel_level": 98.4,
+      "timestamp": "2025-07-23T07:50:00Z",
+      "latitude": -6.18591,
+      "longitude": 106.883381,
+      "speed": 71
+    },
+    {
+      "vehicleId": 27,
+      "odometer": 30188.35,
+      "fuel_level": 39.7,
+      "timestamp": "2025-07-23T07:45:00Z",
+      "latitude": -6.156209,
+      "longitude": 106.737231,
+      "speed": 0
+    },
+    {
+      "vehicleId": 28,
+      "odometer": 122368.32,
+      "fuel_level": 72.6,
+      "timestamp": "2025-07-23T07:40:00Z",
+      "latitude": -6.126891,
+      "longitude": 106.767687,
+      "speed": 0
+    },
+    {
+      "vehicleId": 29,
+      "odometer": 40842.78,
+      "fuel_level": 13.4,
+      "timestamp": "2025-07-23T07:35:00Z",
+      "latitude": -6.196282,
+      "longitude": 106.879235,
+      "speed": 48
+    },
+    {
+      "vehicleId": 30,
+      "odometer": 118076.94,
+      "fuel_level": 15.4,
+      "timestamp": "2025-07-23T07:30:00Z",
+      "latitude": -6.181779,
+      "longitude": 106.796173,
+      "speed": 0
+    },
+    {
+      "vehicleId": 31,
+      "odometer": 76771.8,
+      "fuel_level": 57.7,
+      "timestamp": "2025-07-23T07:25:00Z",
+      "latitude": -6.244041,
+      "longitude": 106.842755,
+      "speed": 0
+    },
+    {
+      "vehicleId": 32,
+      "odometer": 136687.96,
+      "fuel_level": 54.0,
+      "timestamp": "2025-07-23T07:20:00Z",
+      "latitude": -6.280291,
+      "longitude": 106.826942,
+      "speed": 0
+    },
+    {
+      "vehicleId": 33,
+      "odometer": 135618.23,
+      "fuel_level": 33.2,
+      "timestamp": "2025-07-23T07:15:00Z",
+      "latitude": -6.104029,
+      "longitude": 106.867549,
+      "speed": 0
+    },
+    {
+      "vehicleId": 34,
+      "odometer": 135645.96,
+      "fuel_level": 25.1,
+      "timestamp": "2025-07-23T07:10:00Z",
+      "latitude": -6.144975,
+      "longitude": 106.769212,
+      "speed": 49
+    },
+    {
+      "vehicleId": 35,
+      "odometer": 70407.5,
+      "fuel_level": 17.3,
+      "timestamp": "2025-07-23T07:05:00Z",
+      "latitude": -6.288739,
+      "longitude": 106.803685,
+      "speed": 49
+    },
+    {
+      "vehicleId": 36,
+      "odometer": 50173.67,
+      "fuel_level": 66.8,
+      "timestamp": "2025-07-23T07:00:00Z",
+      "latitude": -6.267994,
+      "longitude": 106.839217,
+      "speed": 62
+    },
+    {
+      "vehicleId": 37,
+      "odometer": 80592.4,
+      "fuel_level": 44.1,
+      "timestamp": "2025-07-23T06:55:00Z",
+      "latitude": -6.138656,
+      "longitude": 106.779142,
+      "speed": 0
+    },
+    {
+      "vehicleId": 38,
+      "odometer": 114659.74,
+      "fuel_level": 32.5,
+      "timestamp": "2025-07-23T06:50:00Z",
+      "latitude": -6.180558,
+      "longitude": 106.735439,
+      "speed": 77
+    },
+    {
+      "vehicleId": 39,
+      "odometer": 83049.36,
+      "fuel_level": 35.0,
+      "timestamp": "2025-07-23T06:45:00Z",
+      "latitude": -6.269231,
+      "longitude": 106.722461,
+      "speed": 0
+    },
+    {
+      "vehicleId": 40,
+      "odometer": 55719.01,
+      "fuel_level": 18.5,
+      "timestamp": "2025-07-23T06:40:00Z",
+      "latitude": -6.141875,
+      "longitude": 106.772602,
+      "speed": 0
+    },
+    {
+      "vehicleId": 41,
+      "odometer": 28849.29,
+      "fuel_level": 18.1,
+      "timestamp": "2025-07-23T06:35:00Z",
+      "latitude": -6.295652,
+      "longitude": 106.756039,
+      "speed": 0
+    },
+    {
+      "vehicleId": 42,
+      "odometer": 121056.69,
+      "fuel_level": 66.5,
+      "timestamp": "2025-07-23T06:30:00Z",
+      "latitude": -6.200773,
+      "longitude": 106.788483,
+      "speed": 55
+    },
+    {
+      "vehicleId": 43,
+      "odometer": 89577.85,
+      "fuel_level": 35.6,
+      "timestamp": "2025-07-23T06:25:00Z",
+      "latitude": -6.158582,
+      "longitude": 106.741765,
+      "speed": 0
+    },
+    {
+      "vehicleId": 44,
+      "odometer": 22966.88,
+      "fuel_level": 28.4,
+      "timestamp": "2025-07-23T06:20:00Z",
+      "latitude": -6.234021,
+      "longitude": 106.853172,
+      "speed": 0
+    },
+    {
+      "vehicleId": 45,
+      "odometer": 102057.56,
+      "fuel_level": 11.3,
+      "timestamp": "2025-07-23T06:15:00Z",
+      "latitude": -6.189447,
+      "longitude": 106.788268,
+      "speed": 0
+    },
+    {
+      "vehicleId": 46,
+      "odometer": 104878.08,
+      "fuel_level": 62.7,
+      "timestamp": "2025-07-23T06:10:00Z",
+      "latitude": -6.160995,
+      "longitude": 106.726628,
+      "speed": 59
+    },
+    {
+      "vehicleId": 47,
+      "odometer": 83738.16,
+      "fuel_level": 97.1,
+      "timestamp": "2025-07-23T06:05:00Z",
+      "latitude": -6.297136,
+      "longitude": 106.749877,
+      "speed": 0
+    },
+    {
+      "vehicleId": 48,
+      "odometer": 127993.83,
+      "fuel_level": 22.7,
+      "timestamp": "2025-07-23T06:00:00Z",
+      "latitude": -6.170624,
+      "longitude": 106.788636,
+      "speed": 59
+    },
+    {
+      "vehicleId": 49,
+      "odometer": 32574.64,
+      "fuel_level": 17.0,
+      "timestamp": "2025-07-23T05:55:00Z",
+      "latitude": -6.139224,
+      "longitude": 106.736686,
+      "speed": 0
+    },
+    {
+      "vehicleId": 50,
+      "odometer": 99101.36,
+      "fuel_level": 45.8,
+      "timestamp": "2025-07-23T05:50:00Z",
+      "latitude": -6.255229,
+      "longitude": 106.897934,
+      "speed": 45
     }
   ]
 }
