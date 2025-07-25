@@ -4,7 +4,7 @@ This repository is a simple json server for a take-home frontend assignment from
 
 ## API Endpoints
 
-Base URL: `[http://128.199.106.149](https://vehicle-api.damar-galih.tech/)`
+Base URL: `https://vehicle-api.damar-galih.tech`
 
 ## Endpoints
 
