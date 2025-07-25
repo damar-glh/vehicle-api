@@ -10,7 +10,7 @@ Base URL: `https://vehicle-api.damar-galih.tech`
 
 - GET /vehicles: Returns a list of all vehicles with basic telemetry.
 
-- GET /vehicles/:id: Returns telemetry details of a specific vehicle, including:
+- GET /telemetry/:id: Returns telemetry details of a specific vehicle, including:
   - fuel level
   - odometer
   - speed
